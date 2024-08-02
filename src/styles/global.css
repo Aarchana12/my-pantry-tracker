@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background for better contrast */
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Custom styles for NavBar */
+.MuiAppBar-root {
+  background-color: #1976d2; /* Customize the color */
+}
+
+.MuiButton-root, .MuiIconButton-root {
+  color: white; /* Customize text color */
+}
+
+/* Custom icon colors */
+.edit-icon {
+  color: green !important;
+}
+
+.delete-icon {
+  color: red !important;
+}
+footer {
+  background-color: #1976d2; /* Primary color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .MuiIconButton-root {
+  color: #fff; /* White color for icons */
+}
+
+footer a {
+  color: #fff; /* White color for links */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
